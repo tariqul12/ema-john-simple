@@ -2,6 +2,41 @@
     text-align: center;
 }
 .header img{
-    width: 100px;
+    width: 300px;
     text-align: center;
+}
+/* .header nav {
+    background-color: black;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 30px;
+
+}
+.header nav a{
+    text-decoration: none;
+    color: #ffff;
+    margin-right: 20px;
+    padding: 9px;
+    transition: 0.3s ease;
+
+}
+.header nav a:hover{
+    background-color: tomato;
+    border-bottom:3px solid yellow;
+} */
+.navbar div a img{
+    width: 100px;
+}
+.nav-item a{
+    color: #fff !important;
+}.nav-item a:hover{
+    background-color: gray;
+}
+.search-box{
+    background-color: #222222;
+    vertical-align: middle;
+    height: 40px;
+}
+.search-box input{
+    width: 60%;
 }

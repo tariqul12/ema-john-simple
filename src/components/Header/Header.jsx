@@ -3,6 +3,8 @@ import './Header.css';
 import Logo from './../../images/logo.png';
 import SitLogo from './../../images/LogoMakr-19hz81.png';
 import './../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee,faCartPlus, faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
     return (
@@ -18,7 +20,7 @@ const Header = () => {
   <div className="container-fluid">
     <a className="navbar-brand" href="#"><img src={SitLogo} alt="" /></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
+      <FontAwesomeIcon className='bars-icons' icon={faBars}></FontAwesomeIcon>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 md-lg-0">
